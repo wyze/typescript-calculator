@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features renders 1`] = `
+"<div class=\\"css-186mv4h\\">
+  <Feature emoji=\\"0\\" text=\\"Simple operations\\"></Feature>
+  <Feature emoji=\\"0\\" text=\\"Decimals\\"></Feature>
+  <Feature emoji=\\"0\\" text=\\"Percentage\\"></Feature>
+  <Feature emoji=\\"0\\" text=\\"Positive/Negative\\"></Feature>
+  <Feature emoji=\\"1\\" text=\\"Advanced options\\"></Feature>
+  <Feature emoji=\\"1\\" text=\\"Operation history\\"></Feature>
+</div>"
+`;

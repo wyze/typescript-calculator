@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Svg renders 1`] = `
+"<div class=\\"css-k5inyr\\">
+  <svg enableBackground=\\"new 0 0 64 64\\" viewBox=\\"0 0 64 64\\" xmlns=\\"http://www.w3.org/2000/svg\\"></svg>
+</div>"
+`;
+
+exports[`Svg renders children 1`] = `
+"<div class=\\"css-k5inyr\\">
+  <svg enableBackground=\\"new 0 0 64 64\\" viewBox=\\"0 0 64 64\\" xmlns=\\"http://www.w3.org/2000/svg\\">
+    <g></g>
+  </svg>
+</div>"
+`;

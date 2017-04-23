@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title renders 1`] = `"<h1 class=\\"css-tc8z0v\\">TypeScript Calculator</h1>"`;

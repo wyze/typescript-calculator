@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders 1`] = `"<button class=\\"css-1ht4jl3\\"></button>"`;
+
+exports[`Button sets className property 1`] = `"<button class=\\"css-18ir7kq\\"></button>"`;
+
+exports[`Button sets text property 1`] = `"<button class=\\"css-1ht4jl3\\">.</button>"`;
+
+exports[`Button sets text property with HTML entities 1`] = `"<button class=\\"css-1ht4jl3\\">&minus;</button>"`;

@@ -1,0 +1,70 @@
+{
+  "name": "typescript-calculator",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A calculator built with TypeScript.",
+  "license": "MIT",
+  "repository": "wyze/typescript-calculator",
+  "author": {
+    "name": "Neil Kistner",
+    "email": "neil.kistner@gmail.com",
+    "url": "neilkistner.com"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack -p --env.production",
+    "changelog": "changelog-maker --filter-release -- wyze typescript-calculator",
+    "clean": "rimraf dist",
+    "deploy": "surge dist typescript-calculator.surge.sh",
+    "dev": "webpack-dev-server -w --env",
+    "np": "np --no-publish",
+    "prebuild": "yarn run clean",
+    "predeploy": "npm-run-all build np",
+    "test": "jest",
+    "test:watch": "yarn test -- --watch",
+    "version": "node scripts/version.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^19.2.2",
+    "awesome-typescript-loader": "^3.1.2",
+    "changelog-maker": "^2.2.5",
+    "execa": "^0.6.3",
+    "glamor": "^2.20.24",
+    "html-webpack-plugin": "^2.28.0",
+    "jest": "^19.0.2",
+    "np": "^2.13.2",
+    "npm-run-all": "^4.0.2",
+    "preact": "^8.1.0",
+    "preact-redux": "^2.0.1",
+    "preact-render-to-string": "^3.6.0",
+    "read-pkg": "^2.0.0",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.1",
+    "reselect": "^3.0.0",
+    "rimraf": "^2.6.1",
+    "surge": "^0.19.0",
+    "ts-jest": "^19.0.10",
+    "tslint": "^5.1.0",
+    "tslint-loader": "^3.5.3",
+    "tslint-react": "^2.6.0",
+    "typematch": "^0.5.2",
+    "typescript": "^2.2.2",
+    "uuid": "^3.0.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "tsx"
+    ],
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.tsx?$",
+    "testPathIgnorePatterns": [
+      "/utils/"
+    ],
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    }
+  }
+}

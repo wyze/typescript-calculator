@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputButton passes className property 1`] = `"<Button class=\\"css-1j2u492\\"></Button>"`;
+
+exports[`InputButton passes value property 1`] = `"<Button text=\\"1\\"></Button>"`;
+
+exports[`InputButton renders 1`] = `"<Button></Button>"`;
