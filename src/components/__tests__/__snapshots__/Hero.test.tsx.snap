@@ -1,8 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Hero renders 1`] = `
-"<div class=\\"css-6oc5jx\\">
-  <Title></Title>
-  <Features></Features>
-</div>"
+exports[`<Hero /> renders 1`] = `
+<div
+  className="css-6oc5jx"
+>
+  <Title />
+  <Features />
+</div>
 `;

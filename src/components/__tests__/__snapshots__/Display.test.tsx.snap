@@ -1,5 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Display renders 1`] = `"<div class=\\"css-1c40jf6\\"></div>"`;
-
-exports[`Display renders output property 1`] = `"<div class=\\"css-1c40jf6\\">13</div>"`;
+exports[`<Display /> renders 1`] = `
+<div
+  className="css-1c40jf6"
+>
+  13
+</div>
+`;

@@ -3762,11 +3762,9 @@ preact-redux@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/preact-redux/-/preact-redux-2.0.1.tgz#e60df461b1a287f92ad7988fce1fdaffa5e3842e"
 
-preact-render-to-string@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-3.6.0.tgz#03a49d2d755a766c3d421e8b06d6edbb33ed6bde"
-  dependencies:
-    pretty-format "^3.5.1"
+preact-to-json@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/preact-to-json/-/preact-to-json-1.0.1.tgz#06ac43876c5a93f2146375b37a04e9ed7dcc34b8"
 
 preact@^8.1.0:
   version "8.1.0"
@@ -3796,10 +3794,6 @@ pretty-format@^19.0.0:
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-19.0.0.tgz#56530d32acb98a3fa4851c4e2b9d37b420684c84"
   dependencies:
     ansi-styles "^3.0.0"
-
-pretty-format@^3.5.1:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-3.8.0.tgz#bfbed56d5e9a776645f4b1ff7aa1a3ac4fa3c385"
 
 private@^0.1.6:
   version "0.1.7"

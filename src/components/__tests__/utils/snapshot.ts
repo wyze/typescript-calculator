@@ -1,8 +1,7 @@
-import { FunctionalComponent, h } from 'preact'
-import { render } from 'preact-render-to-string'
+import render from 'preact-to-json'
 
-const snapshot = ( Component: FunctionalComponent<any>, props?: object ) => {
-  const tree = render(h(Component, props), null, { pretty: '  ', shallow: true })
+const snapshot = ( component: JSX.Element ) => {
+  const tree = render(component)
 
   expect(tree).toMatchSnapshot()
 }

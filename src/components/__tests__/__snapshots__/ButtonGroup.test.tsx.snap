@@ -1,9 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ButtonGroup renders 1`] = `"<div class=\\"css-1cqgl9p\\"></div>"`;
+exports[`<ButtonGroup /> renders 1`] = `
+<div
+  className="css-1cqgl9p"
+/>
+`;
 
-exports[`ButtonGroup renders children 1`] = `
-"<div class=\\"css-1cqgl9p\\">
-  <span></span>
-</div>"
+exports[`<ButtonGroup /> renders with children 1`] = `
+<div
+  className="css-1cqgl9p"
+>
+  <span />
+</div>
 `;

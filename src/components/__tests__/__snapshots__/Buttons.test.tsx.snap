@@ -1,35 +1,112 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Buttons renders 1`] = `
-"<div>
+exports[`<Buttons /> renders 1`] = `
+<div>
   <ButtonGroup>
-    <OperationButton class text=\\"C\\"></OperationButton>
-    <OperationButton class text=\\"+/−\\"></OperationButton>
-    <OperationButton class text=\\"%\\"></OperationButton>
-    <OperationButton text=\\"÷\\"></OperationButton>
+    <OperationButton
+      action={[Function]}
+      className={
+        Object {
+          "data-css-llx5cd": "",
+        }
+      }
+      text="C"
+    />
+    <OperationButton
+      action={[Function]}
+      className={
+        Object {
+          "data-css-llx5cd": "",
+        }
+      }
+      text="+/−"
+    />
+    <OperationButton
+      action={[Function]}
+      className={
+        Object {
+          "data-css-llx5cd": "",
+        }
+      }
+      text="%"
+    />
+    <OperationButton
+      action={[Function]}
+      text="÷"
+    />
   </ButtonGroup>
   <ButtonGroup>
-    <InputButton value=\\"7\\"></InputButton>
-    <InputButton value=\\"8\\"></InputButton>
-    <InputButton value=\\"9\\"></InputButton>
-    <OperationButton text=\\"×\\"></OperationButton>
+    <InputButton
+      action={[Function]}
+      value="7"
+    />
+    <InputButton
+      action={[Function]}
+      value="8"
+    />
+    <InputButton
+      action={[Function]}
+      value="9"
+    />
+    <OperationButton
+      action={[Function]}
+      text="×"
+    />
   </ButtonGroup>
   <ButtonGroup>
-    <InputButton value=\\"4\\"></InputButton>
-    <InputButton value=\\"5\\"></InputButton>
-    <InputButton value=\\"6\\"></InputButton>
-    <OperationButton text=\\"−\\"></OperationButton>
+    <InputButton
+      action={[Function]}
+      value="4"
+    />
+    <InputButton
+      action={[Function]}
+      value="5"
+    />
+    <InputButton
+      action={[Function]}
+      value="6"
+    />
+    <OperationButton
+      action={[Function]}
+      text="−"
+    />
   </ButtonGroup>
   <ButtonGroup>
-    <InputButton value=\\"1\\"></InputButton>
-    <InputButton value=\\"2\\"></InputButton>
-    <InputButton value=\\"3\\"></InputButton>
-    <OperationButton text=\\"+\\"></OperationButton>
+    <InputButton
+      action={[Function]}
+      value="1"
+    />
+    <InputButton
+      action={[Function]}
+      value="2"
+    />
+    <InputButton
+      action={[Function]}
+      value="3"
+    />
+    <OperationButton
+      action={[Function]}
+      text="+"
+    />
   </ButtonGroup>
   <ButtonGroup>
-    <InputButton class value=\\"0\\"></InputButton>
-    <InputButton value=\\".\\"></InputButton>
-    <OperationButton text=\\"=\\"></OperationButton>
+    <InputButton
+      action={[Function]}
+      className={
+        Object {
+          "data-css-ch1ln3": "",
+        }
+      }
+      value="0"
+    />
+    <InputButton
+      action={[Function]}
+      value="."
+    />
+    <OperationButton
+      action={[Function]}
+      text="="
+    />
   </ButtonGroup>
-</div>"
+</div>
 `;

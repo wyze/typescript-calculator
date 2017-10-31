@@ -1,7 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`OperationButton passes className property 1`] = `"<Button class></Button>"`;
+exports[`<OperationButton /> renders 1`] = `
+<Button
+  action={[Function]}
+  className={
+    Object {
+      "data-css-a5zy9": "",
+    }
+  }
+  text="+"
+/>
+`;
 
-exports[`OperationButton passes text property 1`] = `"<Button class text=\\"+\\"></Button>"`;
-
-exports[`OperationButton renders 1`] = `"<Button class></Button>"`;
+exports[`<OperationButton /> renders with className 1`] = `
+<Button
+  action={[Function]}
+  className={
+    Object {
+      "data-css-13btn4m": "",
+    }
+  }
+  text="+"
+/>
+`;

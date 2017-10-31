@@ -1,29 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Feature renders 1`] = `
-"<div class=\\"css-g7vt1j\\">
-  <Checkmark></Checkmark>
-  <h3></h3>
-</div>"
+exports[`<Feature /> renders 1`] = `
+<div
+  className="css-g7vt1j"
+>
+  <Checkmark />
+  <h3>
+    Some Feature
+  </h3>
+</div>
 `;
 
-exports[`Feature renders text property 1`] = `
-"<div class=\\"css-g7vt1j\\">
-  <Checkmark></Checkmark>
-  <h3>Awesome</h3>
-</div>"
-`;
-
-exports[`Feature renders with Checkmark emoji 1`] = `
-"<div class=\\"css-g7vt1j\\">
-  <Checkmark></Checkmark>
-  <h3></h3>
-</div>"
-`;
-
-exports[`Feature renders with Soon emoji 1`] = `
-"<div class=\\"css-g7vt1j\\">
-  <Soon></Soon>
-  <h3></h3>
-</div>"
+exports[`<Feature /> renders with Soon emoji 1`] = `
+<div
+  className="css-g7vt1j"
+>
+  <Soon />
+  <h3>
+    Some Feature
+  </h3>
+</div>
 `;

@@ -1,11 +1,20 @@
+import { Input } from '../../redux/modules/operations'
+import { css } from 'glamor'
+import { h } from 'preact'
 import InputButton from '../InputButton'
 import snapshot from './utils/snapshot'
 
-const action = ( payload: string ) => () => ({ payload, type: 'INPUT' })
+const props = {
+  action: jest.fn(),
+  value: '1' as Input,
+}
 
-describe('InputButton', () => {
-  it('renders', () => snapshot(InputButton))
-  it.skip('passes action property', () => snapshot(InputButton, { action }))
-  it('passes className property', () => snapshot(InputButton, { className: 'css-1j2u492' }))
-  it('passes value property', () => snapshot(InputButton, { value: '1' }))
+const propsWithClassName = {
+  ...props,
+  className: css({ color: 'rebeccapurple' }),
+}
+
+describe('<InputButton />', () => {
+  it('renders', () => snapshot(<InputButton {...props} />))
+  it('renders with className', () => snapshot(<InputButton {...propsWithClassName} />))
 })

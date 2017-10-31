@@ -1,11 +1,19 @@
+import { css } from 'glamor'
+import { h } from 'preact'
 import OperationButton from '../OperationButton'
 import snapshot from './utils/snapshot'
 
-const action = () => ({ type: 'ADD' })
+const props = {
+  action: jest.fn(),
+  text: '+',
+}
 
-describe('OperationButton', () => {
-  it('renders', () => snapshot(OperationButton))
-  it.skip('passes action property', () => snapshot(OperationButton, { action }))
-  it('passes className property', () => snapshot(OperationButton, { className: 'css-1j2u492' }))
-  it('passes text property', () => snapshot(OperationButton, { text: '+' }))
+const propsWithClassName = {
+  ...props,
+  className: css({ color: 'rebeccapurple' }),
+}
+
+describe('<OperationButton />', () => {
+  it('renders', () => snapshot(<OperationButton {...props} />))
+  it('renders with className', () => snapshot(<OperationButton {...propsWithClassName} />))
 })

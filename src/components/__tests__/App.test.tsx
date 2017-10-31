@@ -1,10 +1,22 @@
 import { App } from '../App'
+import { h } from 'preact'
 import snapshot from './utils/snapshot'
 
-const actions = { add: () => 1 + 1 }
+const props = {
+  actions: {
+    add: jest.fn(),
+    clear: jest.fn(),
+    divide: jest.fn(),
+    equals: jest.fn(),
+    input: jest.fn(),
+    multiply: jest.fn(),
+    percent: jest.fn(),
+    posneg: jest.fn(),
+    subtract: jest.fn(),
+  },
+  output: '12',
+}
 
-describe('App', () => {
-  it('renders', () => snapshot(App))
-  it('passes output to <Display />', () => snapshot(App, { output: '12' }))
-  it('passes actions to <Buttons />', () => snapshot(App, { actions }))
+describe('<App />', () => {
+  it('renders', () => snapshot(<App {...props} />))
 })
