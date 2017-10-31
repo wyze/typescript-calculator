@@ -9,11 +9,16 @@ exports[`<InputButton /> renders 1`] = `
 `;
 
 exports[`<InputButton /> renders with className 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  color: rebeccapurple;
+}
+
 <Button
   action={[Function]}
   className={
     Object {
-      "data-css-aori8y": "",
+      "data-glamor-0": "",
     }
   }
   text="1"

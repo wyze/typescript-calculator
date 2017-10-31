@@ -1,8 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Svg /> renders 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  height: 16px;
+  margin-right: 1em;
+  margin-top: 0;
+  width: 16px;
+}
+
+@media only screen and (min-width: 53.125em) {
+  .glamor-0,
+  [data-glamor-0] {
+    margin-top: -6px;
+  }
+}
+
 <div
-  className="css-k5inyr"
+  className="glamor-0"
 >
   <svg
     enableBackground="new 0 0 64 64"
@@ -13,8 +28,23 @@ exports[`<Svg /> renders 1`] = `
 `;
 
 exports[`<Svg /> renders with children 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  height: 16px;
+  margin-right: 1em;
+  margin-top: 0;
+  width: 16px;
+}
+
+@media only screen and (min-width: 53.125em) {
+  .glamor-0,
+  [data-glamor-0] {
+    margin-top: -6px;
+  }
+}
+
 <div
-  className="css-k5inyr"
+  className="glamor-0"
 >
   <svg
     enableBackground="new 0 0 64 64"

@@ -1,8 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Button /> renders 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  background: #6d71ff;
+  border: none;
+  color: #fafafa;
+  cursor: pointer;
+  display: inline-block;
+  flex: 25%;
+  font-size: 1.5em;
+  line-height: 2;
+  outline: none;
+  transition: all .75s ease-in-out;
+  -webkit-flex: 25%;
+  -webkit-transition: all .75s ease-in-out;
+  -moz-transition: all .75s ease-in-out;
+}
+
+.glamor-0:hover,
+[data-glamor-0]:hover {
+  background: #fafafa;
+  color: #6d71ff;
+}
+
+.glamor-0:active,
+[data-glamor-0]:active {
+  animation: animation_u8s5ld 3s;
+  -webkit-animation: animation_u8s5ld 3s;
+}
+
 <button
-  className="css-1ht4jl3"
+  className="glamor-0"
   dangerouslySetInnerHTML={
     Object {
       "__html": ".",
@@ -13,8 +42,37 @@ exports[`<Button /> renders 1`] = `
 `;
 
 exports[`<Button /> renders with className 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  background: #6d71ff;
+  border: none;
+  color: rebeccapurple;
+  cursor: pointer;
+  display: inline-block;
+  flex: 25%;
+  font-size: 1.5em;
+  line-height: 2;
+  outline: none;
+  transition: all .75s ease-in-out;
+  -webkit-flex: 25%;
+  -webkit-transition: all .75s ease-in-out;
+  -moz-transition: all .75s ease-in-out;
+}
+
+.glamor-0:hover,
+[data-glamor-0]:hover {
+  background: #fafafa;
+  color: #6d71ff;
+}
+
+.glamor-0:active,
+[data-glamor-0]:active {
+  animation: animation_u8s5ld 3s;
+  -webkit-animation: animation_u8s5ld 3s;
+}
+
 <button
-  className="css-mtanlf"
+  className="glamor-0"
   dangerouslySetInnerHTML={
     Object {
       "__html": ".",
@@ -25,8 +83,37 @@ exports[`<Button /> renders with className 1`] = `
 `;
 
 exports[`<Button /> renders with html entities 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  background: #6d71ff;
+  border: none;
+  color: #fafafa;
+  cursor: pointer;
+  display: inline-block;
+  flex: 25%;
+  font-size: 1.5em;
+  line-height: 2;
+  outline: none;
+  transition: all .75s ease-in-out;
+  -webkit-flex: 25%;
+  -webkit-transition: all .75s ease-in-out;
+  -moz-transition: all .75s ease-in-out;
+}
+
+.glamor-0:hover,
+[data-glamor-0]:hover {
+  background: #fafafa;
+  color: #6d71ff;
+}
+
+.glamor-0:active,
+[data-glamor-0]:active {
+  animation: animation_u8s5ld 3s;
+  -webkit-animation: animation_u8s5ld 3s;
+}
+
 <button
-  className="css-1ht4jl3"
+  className="glamor-0"
   dangerouslySetInnerHTML={
     Object {
       "__html": "&minus;",

@@ -1,8 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Features /> renders 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  -webkit-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-around;
+}
+
 <div
-  className="css-186mv4h"
+  className="glamor-0"
 >
   <Feature
     emoji={0}

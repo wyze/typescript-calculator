@@ -1,8 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Hero /> renders 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  background: #dedede;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 4em;
+  padding: 1em;
+  text-align: center;
+  width: 30em;
+}
+
+@media only screen and (min-width: 53.125em) {
+  .glamor-0,
+  [data-glamor-0] {
+    width: 35em;
+  }
+}
+
 <div
-  className="css-6oc5jx"
+  className="glamor-0"
 >
   <Title />
   <Features />

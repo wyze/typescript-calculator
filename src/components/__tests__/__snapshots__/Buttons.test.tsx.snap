@@ -1,13 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Buttons /> renders 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  background: #3bf3a9;
+}
+
+.glamor-0:hover,
+[data-glamor-0]:hover {
+  color: #3bf3a9;
+}
+
+.glamor-3,
+[data-glamor-3] {
+  flex: 50%;
+  padding-left: .9em;
+  text-align: left;
+  -webkit-flex: 50%;
+}
+
 <div>
   <ButtonGroup>
     <OperationButton
       action={[Function]}
       className={
         Object {
-          "data-css-llx5cd": "",
+          "data-glamor-0": "",
         }
       }
       text="C"
@@ -16,7 +34,7 @@ exports[`<Buttons /> renders 1`] = `
       action={[Function]}
       className={
         Object {
-          "data-css-llx5cd": "",
+          "data-glamor-0": "",
         }
       }
       text="+/−"
@@ -25,7 +43,7 @@ exports[`<Buttons /> renders 1`] = `
       action={[Function]}
       className={
         Object {
-          "data-css-llx5cd": "",
+          "data-glamor-0": "",
         }
       }
       text="%"
@@ -94,7 +112,7 @@ exports[`<Buttons /> renders 1`] = `
       action={[Function]}
       className={
         Object {
-          "data-css-ch1ln3": "",
+          "data-glamor-3": "",
         }
       }
       value="0"

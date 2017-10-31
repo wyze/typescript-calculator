@@ -1,8 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Feature /> renders 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-basis: 40%;
+  height: 2em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-flex-basis: 40%;
+}
+
+@media only screen and (min-width: 53.125em) {
+  .glamor-0,
+  [data-glamor-0] {
+    flex-basis: 35%;
+    -webkit-flex-basis: 35%;
+  }
+}
+
 <div
-  className="css-g7vt1j"
+  className="glamor-0"
 >
   <Checkmark />
   <h3>
@@ -12,8 +35,31 @@ exports[`<Feature /> renders 1`] = `
 `;
 
 exports[`<Feature /> renders with Soon emoji 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-basis: 40%;
+  height: 2em;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -webkit-flex-basis: 40%;
+}
+
+@media only screen and (min-width: 53.125em) {
+  .glamor-0,
+  [data-glamor-0] {
+    flex-basis: 35%;
+    -webkit-flex-basis: 35%;
+  }
+}
+
 <div
-  className="css-g7vt1j"
+  className="glamor-0"
 >
   <Soon />
   <h3>

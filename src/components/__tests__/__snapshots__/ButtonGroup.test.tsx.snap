@@ -1,14 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ButtonGroup /> renders 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
 <div
-  className="css-1cqgl9p"
+  className="glamor-0"
 />
 `;
 
 exports[`<ButtonGroup /> renders with children 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
 <div
-  className="css-1cqgl9p"
+  className="glamor-0"
 >
   <span />
 </div>

@@ -1,8 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Title /> renders 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  font-size: 1.5em;
+}
+
 <h1
-  className="css-tc8z0v"
+  className="glamor-0"
 >
   TypeScript Calculator
 </h1>

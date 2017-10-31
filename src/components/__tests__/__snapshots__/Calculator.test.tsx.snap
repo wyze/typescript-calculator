@@ -1,14 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Calculator /> renders 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  background: #838383;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 14em;
+}
+
 <div
-  className="css-zzci37"
+  className="glamor-0"
 />
 `;
 
 exports[`<Calculator /> renders with children 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  background: #838383;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 14em;
+}
+
 <div
-  className="css-zzci37"
+  className="glamor-0"
 >
   <span />
 </div>

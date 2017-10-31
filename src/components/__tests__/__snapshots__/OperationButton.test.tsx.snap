@@ -1,11 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<OperationButton /> renders 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  background: #ff8754;
+}
+
+.glamor-0:hover,
+[data-glamor-0]:hover {
+  color: #ff8754;
+}
+
 <Button
   action={[Function]}
   className={
     Object {
-      "data-css-a5zy9": "",
+      "data-glamor-0": "",
     }
   }
   text="+"
@@ -13,11 +23,22 @@ exports[`<OperationButton /> renders 1`] = `
 `;
 
 exports[`<OperationButton /> renders with className 1`] = `
+.glamor-0,
+[data-glamor-0] {
+  background: #ff8754;
+  color: rebeccapurple;
+}
+
+.glamor-0:hover,
+[data-glamor-0]:hover {
+  color: #ff8754;
+}
+
 <Button
   action={[Function]}
   className={
     Object {
-      "data-css-13btn4m": "",
+      "data-glamor-0": "",
     }
   }
   text="+"
